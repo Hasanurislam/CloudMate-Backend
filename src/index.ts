@@ -13,7 +13,7 @@ const port = process.env.PORT || 8080;
 // Middleware to parse JSON bodies
 app.use(cors({
   origin: [
-    "https://cloud-mate-frontend.vercel.app/", // your deployed frontend
+    "https://cloud-mate-frontend.vercel.app", // your deployed frontend
     "http://localhost:5173"             // for local dev (Vite default)
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
