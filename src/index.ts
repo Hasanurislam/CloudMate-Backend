@@ -16,7 +16,7 @@ app.use(cors({
     "https://cloud-mate-frontend.vercel.app", // your deployed frontend
     "http://localhost:5173"             // for local dev (Vite default)
   ],
-  methods: ["GET", "POST", "PUT", "DELETE"],
+  methods: ["GET", "POST", "PATCH", "DELETE"],
   credentials: true
 }));
 
